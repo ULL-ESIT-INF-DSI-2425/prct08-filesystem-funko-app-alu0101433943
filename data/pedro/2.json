@@ -1,0 +1,12 @@
+{
+  "id": 2,
+  "name": "Classic Sonic",
+  "description": "El mejor Funko de Sonic",
+  "type": "Pop!",
+  "genre": "Games",
+  "franchise": "Sonic The Hedgehog",
+  "number": 1,
+  "exclusive": false,
+  "specialFeatures": "Brilla en la oscuridad",
+  "marketValue": 25
+}

@@ -2,6 +2,7 @@ import globals from "globals";
 import pluginJs from "@eslint/js";
 import tseslint from "typescript-eslint";
 import eslintConfigPrettier from "eslint-config-prettier";
+import tsdoc from "eslint-plugin-tsdoc";
 
 /** @type {import('eslint').Linter.Config[]} */
 export default [
@@ -10,8 +11,22 @@ export default [
   pluginJs.configs.recommended,
   ...tseslint.configs.recommended,
   eslintConfigPrettier,
-  {ignores: [
-    "dist/*"
-  ]    
+  {
+    plugins: {
+      tsdoc
+    }
+  },
+  {
+    rules: {
+      "tsdoc/syntax": "warn",
+      "prefer-const": "off"
+    }
+  },
+  {
+    ignores: [
+      "dist/*",
+      "docs/*",
+      "eslint.config.mjs",
+    ]  
   }
 ];
