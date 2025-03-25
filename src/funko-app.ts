@@ -1,18 +1,13 @@
-/**
- * Main application entry point and CLI configuration
- * @module FunkoApp
- */
-export * from './commands/add.js';
-export * from './commands/list.js';
-export * from './models/funko.js';
-export * from './utils/fileManager.js';
+export * from "./commands/add.js";
+export * from "./commands/list.js";
+export * from "./models/funko.js";
+export * from "./utils/fileManager.js";
 
-// Explicitly export all types
-export type { AddFunkoArgs } from './commands/add.js';
-export type { ListFunkoArgs } from './commands/list.js';
-export type { ReadFunkoArgs } from './commands/read.js';
-export type { RemoveFunkoArgs } from './commands/remove.js';
-export type { UpdateFunkoArgs } from './commands/update.js';
+export type { AddFunkoArgs } from "./commands/add.js";
+export type { ListFunkoArgs } from "./commands/list.js";
+export type { ReadFunkoArgs } from "./commands/read.js";
+export type { RemoveFunkoArgs } from "./commands/remove.js";
+export type { UpdateFunkoArgs } from "./commands/update.js";
 
 import yargs from "yargs";
 import { hideBin } from "yargs/helpers";
