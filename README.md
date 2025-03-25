@@ -1,3 +1,5 @@
+[![Tests](https://github.com/ULL-ESIT-INF-DSI-2425/prct08-filesystem-funko-app-alu0101433943/actions/workflows/ci.yml/badge.svg)](https://github.com/ULL-ESIT-INF-DSI-2425/prct08-filesystem-funko-app-alu0101433943/actions/workflows/ci.yml)
+
 # Funko Pop Collection Manager
 
 Aplicación CLI para gestionar colecciones de Funko Pops, con persistencia en archivos JSON y documentación completa.
