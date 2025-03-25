@@ -132,5 +132,5 @@ describe("addFunko", () => {
     readFunko({ id: 1, user: "testUser" });
     const allConsoleOutput = consoleSpy.mock.calls.flat().join(" ");
     expect(allConsoleOutput).toContain("Nuevo nombre");
-  });
+  }); 
 });
